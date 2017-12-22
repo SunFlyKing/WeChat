@@ -1,0 +1,155 @@
+/* CSS Document */
+* {
+	margin:0;
+	padding:0;
+	color:#333;
+}
+html {
+	font-size:62.5%; /*1rem = 10px*/
+}
+ul,li {
+	list-style:none;
+}
+.cb {
+	clear:both;
+}
+.h10 {
+	height:10px;
+}
+img {
+	max-width:100%;
+	border:0;
+}
+object,embed {
+	max-width:100%;
+}
+.container {
+	width:100%;
+}
+#header .logo {
+	width:100%;
+	background:#034B87;
+	text-align:center;
+}
+#header .menu ul li {
+	 width:25%;
+	 float:left;
+	 text-align:center;
+	 line-height:30px;
+	 background:#05487F;
+ }
+#header .menu ul li a {
+	font-size:1.4rem;
+	color:#FFF;
+	text-decoration:none;
+}
+#header .menu ul li span {
+	display:none;
+}
+.aboutus{
+	width: 90%;
+	margin-left: 5%;
+}
+.aboutus h2 {
+	background:url(../images/aboutus_title.jpg) no-repeat;
+	height:28px;
+}
+.aboutus p {
+	font-size:1.4rem;
+	line-height:28px;
+}
+.news{
+	width: 90%;
+	margin-left: 5%;
+}
+.news .news-title ul li {
+	float:left;
+	line-height:24px;
+}
+.news .news-content ul li {
+	line-height:30px;
+	border-bottom:1px #ccc dashed;
+}
+.news .news-content ul li span.time {
+	float:right;
+	font-size:1.4rem;
+}
+.news .news-content ul li a {
+	color:#333;
+	text-decoration:none;
+	font-size:1.4rem;
+}
+.contactus{
+	width: 90%;
+	margin-left: 5%;
+}
+.contactus .contactus-title {
+	display:none;
+}
+.contactus h2 {
+	background:url(../images/contactus_title.jpg) no-repeat;
+	height:28px;
+}
+.contactus p {
+	font-size:1.4rem;
+	line-height:24px;
+}
+.product{
+	width: 96%;
+	margin-left: 2%;
+}
+.product .hd {
+	display:none;
+}
+.product .product-show {
+	width:100%;
+	overflow:hidden;
+}
+.product-show .bd ul li {
+	width:25%;
+	height:110px;
+	float:left;
+	text-align:center;
+	font-size:1.4rem;
+}
+.product-show .bd ul li img {
+	width:100%;
+	margin-bottom:10px;
+	height:70px;
+}
+#footer {
+	background:#023C68;
+	height:70px;
+	text-align:center;
+	padding-top:10px;
+	font-size:1.4rem;
+}
+#footer p {
+	color:#FFF;
+}
+.h40 {
+	height:40px;
+}
+.navbar {
+	width:100%;
+	background:#0662AD;
+	height:42px;
+	position:fixed;
+	left:0;
+	bottom:0;
+}
+.navbar ul li {
+	width:25%;
+	color:#FFF;
+	float:left;
+	text-align:center;
+}
+.navbar ul li a {
+	color:#FFF;
+	text-decoration:none;
+}
+.navbar ul li i {
+	margin-top: 5px;
+	color:#FFF;
+	display:block;
+}

@@ -1,0 +1,251 @@
+/* CSS Document */
+* {
+	margin:0;
+	padding:0;
+}
+img {
+	border:0;
+}
+ul,li {
+	list-style:none;
+}
+.cb {
+	clear:both;
+	height:0;
+	font-size:0;
+	overflow:hidden;
+}
+.h10 {
+	width:100%;
+	height:10px;
+}
+body {
+	font-size:12px;
+	color:#666;
+}
+.w1000 {
+	width:1000px;
+	margin:0 auto;
+}
+#header {
+	width:100%;
+	height:85px;
+	background:url(../images/header.jpg) repeat-x;
+}
+#header .logo {
+	float:left;
+	width:260px;
+	height:85px;
+}
+
+#header .menu {
+	float:right;
+	width:740px;
+	height:85px;
+}
+#header .menu ul li {
+	float:left;
+	text-align:center;
+	line-height:100px;
+	width:92px;
+	height:85px;
+	position:relative;
+}
+#header .menu ul li span {
+	font-size:9px;
+	color:#3D8AC9;
+	position:absolute;
+	top:-20px;
+	left:0;
+	width:92px;
+	display:inline-block;
+}
+#header .menu ul li:hover span.arrow {
+	position:absolute;
+	z-index:999;
+	top:32px;
+	bottom:0;
+	display:inline-block;
+	width:100%;
+	height:10px;
+}
+#header .menu ul li span.arrow {
+	display: none;
+}
+#header .menu ul li a{
+	display:block;
+	width:92px;
+	height:85px;
+	color:#91C2EA;
+	font-size:14px;
+	font-weight:bold;
+	text-decoration:none;
+}
+#header .menu ul li:hover {
+	display:block;
+	width:92px;
+	height:85px;
+	background:#043A68;
+}
+
+#banner .menu-nav {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:20px;
+	/*background:#666;*/
+	z-index:999;
+	);
+	-webkit-filter:opacity(.3);
+}
+#banner{ width:100%;  position:relative;  height:370px;   }
+#banner .bd{position:relative; z-index:0; overflow:hidden;  width:100%}
+#banner .bd ul{ width:100%}
+#banner .bd li{ width:100%;height:370px; overflow:hidden;}
+#banner .bd li a{ display:block; height:370px;width:100%}
+#banner .bd li a img{ height:370px;width:100%}
+
+/*#banner .hd{ width:100%;  position:absolute; z-index:1; bottom:0; left:0; height:30px; line-height:30px; text-align:center;*/
+	 /*_background:#000; _filter:alpha(opacity=60); */
+/*}*/
+/*#banner .hd ul{ text-align:center;  padding-top:5px;  }*/
+/*#banner .hd ul li{ cursor:pointer; display:inline-block; *display:inline; zoom:1; width:8px; height:8px; margin:5px;*/
+	/*overflow:hidden;*/
+	/*line-height:9999px; */
+/*}*/
+/*#banner .hd ul .on{ background-position:0 0; }*/
+
+
+#line-blue {
+	width:100%;
+	height:10px;
+	background:#0662AE;
+	/*box  x阴影  y阴影  10羽化  阴影颜色  */
+    box-shadow: 0px 0px 20px black;/* inset 向内阴影 */
+}
+.main {
+	padding-top:20px;
+	width: 90%;
+}
+.w1000 .aboutus {
+	width:500px;
+	height:171px;
+	margin-left:20px;
+	float:left;
+}
+.w1000 .aboutus h2 {
+	background:url(../images/aboutus_title.jpg) no-repeat;
+	height:28px;
+}
+.w1000 .aboutus p {
+	text-indent:24px;
+	line-height:24px;
+}
+.w1000 .news {
+	width:500px;
+	height:171px;
+	margin-left: 50px;
+	overflow:hidden;
+	float:left;
+}
+.w1000 .news .news-title ul li {
+	float:left;
+	margin-right:5px;
+}
+.w1000 .news .news-content ul li {
+	line-height:26px;
+	padding:0 5px;
+	border-bottom:1px #ccc dotted;
+}
+.w1000 .news .news-content ul li a {
+	color:#666;
+	text-decoration:none;
+}
+.w1000 .news .news-content ul li:hover a{
+	color:lightblue;
+}
+.w1000 .news .news-content ul li .time {
+	float:right;
+}
+.w1000 .contactus {
+	position:relative;
+	width:270px;
+	height:171px;
+	background:#0662AE;
+	float:right;
+	box-shadow: 0px 0px 10px black;/* inset 向内阴影 */
+	margin-top: 23px;
+}
+.w1000 .contactus .contactus-title {
+
+
+
+}
+.w1000 .contactus-title {
+	position:absolute;
+	z-index:999;
+	top:-65px;
+	left:0;
+}
+.w1000 .contactus p {
+	padding:40px 10px 0;
+	color:#FFF;
+	line-height:24px;
+}
+.w1000 .product-title {}
+.w1000 .product-content {width: 1000px;margin: 10px auto}
+.w1000 .product-content .arrow-lf {
+	width:25px;
+	height:142px;
+	float:left;
+}
+.w1000 .product-content .arrow-rg {
+	width:25px;
+	height:142px;
+	float:right;
+}
+.w1000 .product-content .product-show {
+	width:950px;
+	height:142px;
+	overflow:hidden;
+}
+.w1000 .product-content .product-show li {
+	list-style:none;
+}
+.w1000 .product-content .product-show ul li{
+	width:180px;
+	height:122px;
+	margin:0 5px;
+	padding:10px 0;
+	float:left;
+	text-align:center;
+	overflow:hidden;
+	background:#DBDBDB;
+}
+.w1000 .product-content .product-show ul li:hover {
+	background:#065699;
+	color:#FFF;
+}
+.w1000 .product-content .product-show ul li img {
+	width:160px;
+	height:100px;
+	margin-bottom:10px;
+}
+#footer {
+	width:100%;
+	height:84px;
+	padding-top:20px;
+	background:#666;
+}
+#footer p {
+	text-align:center;
+	line-height:30px;
+	color:#FFF;
+}
+.h40 {
+	display:none;
+}
+.navbar {
+	display:none;
+}
